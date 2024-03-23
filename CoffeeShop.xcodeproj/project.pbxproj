@@ -10,12 +10,19 @@
 		3BBB520A2BAEEAC7004B8536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB52092BAEEAC7004B8536 /* AppDelegate.swift */; };
 		3BBB520C2BAEEAC7004B8536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB520B2BAEEAC7004B8536 /* SceneDelegate.swift */; };
 		3BBB520E2BAEEAC7004B8536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB520D2BAEEAC7004B8536 /* ViewController.swift */; };
-		3BBB52112BAEEAC7004B8536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB520F2BAEEAC7004B8536 /* Main.storyboard */; };
 		3BBB52132BAEEAC9004B8536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52122BAEEAC9004B8536 /* Assets.xcassets */; };
 		3BBB52162BAEEAC9004B8536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52142BAEEAC9004B8536 /* LaunchScreen.storyboard */; };
 		3BBB52212BAEEAC9004B8536 /* CoffeeShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB52202BAEEAC9004B8536 /* CoffeeShopTests.swift */; };
 		3BBB522B2BAEEAC9004B8536 /* CoffeeShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB522A2BAEEAC9004B8536 /* CoffeeShopUITests.swift */; };
 		3BBB522D2BAEEAC9004B8536 /* CoffeeShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB522C2BAEEAC9004B8536 /* CoffeeShopUITestsLaunchTests.swift */; };
+		3BBB52462BAEF356004B8536 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB52452BAEF356004B8536 /* OnBoardingVC.swift */; };
+		3BBB52482BAEFB81004B8536 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB52472BAEFB81004B8536 /* AppCoordinator.swift */; };
+		3BBB524B2BAEFBB0004B8536 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB524A2BAEFBB0004B8536 /* Coordinator.swift */; };
+		3BBB524F2BAF004A004B8536 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB524E2BAF004A004B8536 /* Sora-Regular.ttf */; };
+		3BBB52512BAF0059004B8536 /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52502BAF0059004B8536 /* Sora-Medium.ttf */; };
+		3BBB52532BAF0064004B8536 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52522BAF0064004B8536 /* Sora-SemiBold.ttf */; };
+		3BBB52552BAF0070004B8536 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52542BAF0070004B8536 /* Sora-Bold.ttf */; };
+		3BBB52572BAF007B004B8536 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB52562BAF007B004B8536 /* Sora-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,6 @@
 		3BBB52092BAEEAC7004B8536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBB520B2BAEEAC7004B8536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BBB520D2BAEEAC7004B8536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BBB52102BAEEAC7004B8536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BBB52122BAEEAC9004B8536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBB52152BAEEAC9004B8536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBB52172BAEEAC9004B8536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3BBB52262BAEEAC9004B8536 /* CoffeeShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBB522A2BAEEAC9004B8536 /* CoffeeShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopUITests.swift; sourceTree = "<group>"; };
 		3BBB522C2BAEEAC9004B8536 /* CoffeeShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BBB52452BAEF356004B8536 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		3BBB52472BAEFB81004B8536 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3BBB524A2BAEFBB0004B8536 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3BBB524E2BAF004A004B8536 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sora-Regular.ttf"; path = "../../../../../Downloads/Sora/static/Sora-Regular.ttf"; sourceTree = "<group>"; };
+		3BBB52502BAF0059004B8536 /* Sora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sora-Medium.ttf"; path = "../../../../../Downloads/Sora/static/Sora-Medium.ttf"; sourceTree = "<group>"; };
+		3BBB52522BAF0064004B8536 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sora-SemiBold.ttf"; path = "../../../../../Downloads/Sora/static/Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		3BBB52542BAF0070004B8536 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sora-Bold.ttf"; path = "../../../../../Downloads/Sora/static/Sora-Bold.ttf"; sourceTree = "<group>"; };
+		3BBB52562BAF007B004B8536 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sora-Light.ttf"; path = "../../../../../Downloads/Sora/static/Sora-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +116,7 @@
 				3BBB52392BAEEC0D004B8536 /* Application */,
 				3BBB523A2BAEEC49004B8536 /* Presentation */,
 				3BBB520D2BAEEAC7004B8536 /* ViewController.swift */,
-				3BBB520F2BAEEAC7004B8536 /* Main.storyboard */,
-				3BBB52122BAEEAC9004B8536 /* Assets.xcassets */,
-				3BBB52142BAEEAC9004B8536 /* LaunchScreen.storyboard */,
+				3BBB524C2BAEFFEE004B8536 /* Resources */,
 				3BBB52172BAEEAC9004B8536 /* Info.plist */,
 			);
 			path = CoffeeShop;
@@ -132,6 +144,7 @@
 			children = (
 				3BBB52092BAEEAC7004B8536 /* AppDelegate.swift */,
 				3BBB520B2BAEEAC7004B8536 /* SceneDelegate.swift */,
+				3BBB52472BAEFB81004B8536 /* AppCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -148,6 +161,10 @@
 		3BBB523B2BAEEC56004B8536 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				3BBB52442BAEF331004B8536 /* Extensions */,
+				3BBB52432BAEF328004B8536 /* ViewModel */,
+				3BBB52422BAEF325004B8536 /* View */,
+				3BBB52402BAEF2CA004B8536 /* Cells */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -155,8 +172,68 @@
 		3BBB523D2BAEEC72004B8536 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3BBB52492BAEFB98004B8536 /* Protocols */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3BBB52402BAEF2CA004B8536 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3BBB52422BAEF325004B8536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB52452BAEF356004B8536 /* OnBoardingVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BBB52432BAEF328004B8536 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BBB52442BAEF331004B8536 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BBB52492BAEFB98004B8536 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB524A2BAEFBB0004B8536 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3BBB524C2BAEFFEE004B8536 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB524D2BAEFFFB004B8536 /* Fonts */,
+				3BBB52122BAEEAC9004B8536 /* Assets.xcassets */,
+				3BBB52142BAEEAC9004B8536 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BBB524D2BAEFFFB004B8536 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB524E2BAF004A004B8536 /* Sora-Regular.ttf */,
+				3BBB52522BAF0064004B8536 /* Sora-SemiBold.ttf */,
+				3BBB52502BAF0059004B8536 /* Sora-Medium.ttf */,
+				3BBB52562BAF007B004B8536 /* Sora-Light.ttf */,
+				3BBB52542BAF0070004B8536 /* Sora-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +341,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBB52162BAEEAC9004B8536 /* LaunchScreen.storyboard in Resources */,
+				3BBB524F2BAF004A004B8536 /* Sora-Regular.ttf in Resources */,
+				3BBB52512BAF0059004B8536 /* Sora-Medium.ttf in Resources */,
 				3BBB52132BAEEAC9004B8536 /* Assets.xcassets in Resources */,
-				3BBB52112BAEEAC7004B8536 /* Main.storyboard in Resources */,
+				3BBB52552BAF0070004B8536 /* Sora-Bold.ttf in Resources */,
+				3BBB52532BAF0064004B8536 /* Sora-SemiBold.ttf in Resources */,
+				3BBB52572BAF007B004B8536 /* Sora-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +372,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBB520E2BAEEAC7004B8536 /* ViewController.swift in Sources */,
+				3BBB52462BAEF356004B8536 /* OnBoardingVC.swift in Sources */,
+				3BBB524B2BAEFBB0004B8536 /* Coordinator.swift in Sources */,
+				3BBB52482BAEFB81004B8536 /* AppCoordinator.swift in Sources */,
 				3BBB520A2BAEEAC7004B8536 /* AppDelegate.swift in Sources */,
 				3BBB520C2BAEEAC7004B8536 /* SceneDelegate.swift in Sources */,
 			);
@@ -329,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3BBB520F2BAEEAC7004B8536 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BBB52102BAEEAC7004B8536 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3BBB52142BAEEAC9004B8536 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -479,7 +555,6 @@
 				INFOPLIST_FILE = CoffeeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -511,7 +586,6 @@
 				INFOPLIST_FILE = CoffeeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;

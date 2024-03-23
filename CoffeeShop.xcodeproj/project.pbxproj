@@ -99,8 +99,8 @@
 		3BBB52082BAEEAC7004B8536 /* CoffeeShop */ = {
 			isa = PBXGroup;
 			children = (
-				3BBB52092BAEEAC7004B8536 /* AppDelegate.swift */,
-				3BBB520B2BAEEAC7004B8536 /* SceneDelegate.swift */,
+				3BBB52392BAEEC0D004B8536 /* Application */,
+				3BBB523A2BAEEC49004B8536 /* Presentation */,
 				3BBB520D2BAEEAC7004B8536 /* ViewController.swift */,
 				3BBB520F2BAEEAC7004B8536 /* Main.storyboard */,
 				3BBB52122BAEEAC9004B8536 /* Assets.xcassets */,
@@ -125,6 +125,38 @@
 				3BBB522C2BAEEAC9004B8536 /* CoffeeShopUITestsLaunchTests.swift */,
 			);
 			path = CoffeeShopUITests;
+			sourceTree = "<group>";
+		};
+		3BBB52392BAEEC0D004B8536 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB52092BAEEAC7004B8536 /* AppDelegate.swift */,
+				3BBB520B2BAEEAC7004B8536 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3BBB523A2BAEEC49004B8536 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB523B2BAEEC56004B8536 /* OnBoarding */,
+				3BBB523D2BAEEC72004B8536 /* Utils */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3BBB523B2BAEEC56004B8536 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		3BBB523D2BAEEC72004B8536 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
